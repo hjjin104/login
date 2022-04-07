@@ -17,7 +17,7 @@ def index():
     if 'username' in session:
         return '로그인 성공! 아이디는 %s' % escape(session['username']) + \
             "<br><a href = '/logout'>로그아웃</a>"
-    return "로그인 해주세요!! <br><a href ='/login'>로그인 하러가기!</a>"
+    return "로그인 해주세요!!1111 <br><a href ='/login'>로그인 하러가기!</a>"
 
 
 @app.route('/login', methods=['GET', 'POST'])
